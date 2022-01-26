@@ -1,35 +1,33 @@
 html {
-    background-color: black;
-    background-image: url(/projects/courses/102/Lab-5/images/download.png) !important;
-    margin: 20px;
+    background-image: url(/projects/courses/102/Lab-5/images/download.png);
     font-size: 24px;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 h1 {
     color: #FFE81F;
     text-align: center;
 }
 
-main {
-    border: 5px solid white;
-}
-
-header {
-    border: 5px solid white;
-}
-
-footer {
-    border: 5px solid white;
-}
-
 img {
+   margin: 20px;
    float: right;
 }
 
 #List {
     text-align: left;
+    font-size: 36px;
+    margin-bottom: 50px;
+    float: left;
 }
 
 #Caption {
-    float: left;
+    text-align: right;
+    float: right;
+    margin-left: 50%;
 }
+
+#Paragraph {
+    display: inline-block;
+}
+
