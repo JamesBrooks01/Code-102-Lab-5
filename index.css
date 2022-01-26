@@ -1,7 +1,8 @@
 html {
     background-color: black;
-    background-image: url(/projects/courses/102/Lab-5/images/download.png);
+    background-image: url(/projects/courses/102/Lab-5/images/download.png) !important;
     margin: 20px;
+    font-size: 24px;
 
 }
 h1 {
@@ -22,10 +23,13 @@ footer {
 }
 
 img {
-    align: right;
+   float: right;
 }
 
 #List {
+    text-align: left;
+}
+
+#Caption {
     float: left;
-    text
 }
